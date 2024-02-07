@@ -1,0 +1,169 @@
+h1,
+h2 {
+    font-size: 18px;
+}
+
+.header {
+    text-align: center;
+    background-color: #F7F4EA;
+    padding: 6px 0;
+}
+
+.header img {
+    width: 80px;
+    height: 80px;
+}
+
+.section_banner {
+    padding: 60px 15px;
+    background-color: #DED9E2;
+}
+
+.section_banner h1 {
+    color: #000000;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+}
+
+.admin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 10px;
+}
+
+.admin a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 20px;
+}
+
+.admin a img {
+    width: 80px;
+}
+
+.produtos {
+    background: #C0B9DD;
+    border-radius: 2rem;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.produtos a {
+    background-color: #80A1D4;
+    border-radius: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+article {
+    display: inline-block;
+    padding: 5px 0 10px;
+    width: calc(225px - 20px);
+    /* O valor total do div é de 900px e a dividir por 4 dá 225px em cada*/
+}
+
+article .ver_img {
+    width: 400px;
+}
+
+article .ver {
+    width: 100%;
+}
+
+article .ver h2 {
+    width: 100%;
+    overflow: inherit;
+}
+
+
+/* Página principal */
+article h2 {
+    font-size: 20px;
+    color: #000000;
+    padding: 5px 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Descreve como os espaços em branco são manipulados */
+    white-space: nowrap;
+    width: 180px;
+    margin: 0 auto;
+}
+
+article a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    background-color: #80A1D4;
+}
+
+article img {
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer div {
+    background-color: #80A1D4;
+    color: #000000;
+    padding: 20px 0;
+}
+
+/* btn voltar*/
+
+.wrapper {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;
+}
+
+.wrapper div {
+    padding: 10px;
+}
+
+.wrapper div img {
+    width: 50px;
+}
+
+.wrapper div a {
+    text-decoration: none;
+}
+
+
+
+/*@media(max-width:900px){
+    .produtos{
+        width: calc(100%-20px);
+        padding:10px;
+    }
+    article{
+        width:100%;
+    }
+    article img{
+        width:60%;
+    }
+}
+
+@media(max-width:400px){
+    .section_banner h1{
+        font-size: 20px;
+    }
+}*/
+.login {
+    box-shadow: 2px;
+    -webkit-box-align: center;
+    background-color: #C0B9DD;
+}
